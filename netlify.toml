@@ -1,10 +1,4 @@
 [[redirects]]
-  from = "/robots.txt"
-  to = "https://raw.githubusercontent.com/izulwahidin/Netlify-Reverse-Proxy/main/robots.txt"
-  status = 200
-  force = true
-  
-[[redirects]]
   from = "/(.*)"
   to = "https://cdn.live.vidgo.com/:splat"
   status = 200
