@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "https://cdn.live.vidgo.com/:splat"
+  to = "http://live2-ott.izzigo.tv/:splat"
   status = 200
   force = true
-  headers = {X-From = "netlify", X-Custom-Token = "my custom token"}
+  headers = {User-Agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36", Referer = "https://www.izzigo.tv/"}
